@@ -8,7 +8,7 @@ export default function Home () {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       {/* Header */}
-      <header className="flex w-full p-5 justify-between">
+      <header className="flex w-full p-5 justify-between text-sm text-gray-700">
         {/*Left */}
         <div className="flex space-x-4 items-center">
           <p>About</p>
