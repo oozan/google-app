@@ -11,7 +11,7 @@ export default function Home () {
       <header className="flex w-full p-5 justify-between text-sm text-gray-700">
         {/*Left */}
         <div className="flex space-x-4 items-center">
-          <p>About</p>
+          <p className="link">About</p>
           <p>Store</p>
         </div>
         {/* Right */}
