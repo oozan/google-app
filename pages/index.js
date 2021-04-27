@@ -12,12 +12,12 @@ export default function Home () {
         {/*Left */}
         <div className="flex space-x-4 items-center">
           <p className="link">About</p>
-          <p>Store</p>
+          <p className="link">Store</p>
         </div>
         {/* Right */}
         <div className="flex space-x-4 items-center">
-          <p>Gmail</p>
-          <p>Images</p>
+          <p className="link">Gmail</p>
+          <p className="link">Images</p>
           {/* Icon */}
           {/* Avatar */}
         </div>
