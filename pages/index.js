@@ -1,6 +1,6 @@
-import Head from 'next/head'
+import Head from 'next/head';
 
-export default function Home() {
+export default function Home () {
   return (
     <div>
       <Head>
@@ -8,9 +8,23 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       {/* Header */}
+      <header>
+        {/*Left */}
+        <div>
+          <p>About</p>
+          <p>Store</p>
+        </div>
+        {/* Right */}
+        <div>
+          <p>Gmail</p>
+          <p>Images</p>
+          {/* Icon */}
+          {/* Avatar */}
+        </div>
+      </header>
       {/* Body */}
       {/* Footer */}
       <h1 className="p-10">GOOGLE APP</h1>
     </div>
-  )
+  );
 }
