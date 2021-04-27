@@ -8,14 +8,14 @@ export default function Home () {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       {/* Header */}
-      <header>
+      <header className="flex w-full p-5 justify-between">
         {/*Left */}
-        <div>
+        <div className="flex space-x-4 items-center">
           <p>About</p>
           <p>Store</p>
         </div>
         {/* Right */}
-        <div>
+        <div className="flex space-x-4 items-center">
           <p>Gmail</p>
           <p>Images</p>
           {/* Icon */}
