@@ -21,7 +21,7 @@ export default function Home () {
           <p className="link">Images</p>
           {/* Icon */}
           {/* Avatar */}
-          <Avatar />
+          <Avatar url="https://cdn.icon-icons.com/icons2/1302/PNG/512/messengeruseravatar_85815.png" />
         </div>
       </header>
       {/* Body */}
