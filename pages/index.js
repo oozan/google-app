@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import Avatar from '../components/Avatar';
-import { MicrophoneIcon, ViewGridIcon } from '@heroicons/react/solid';
+import {MicrophoneIcon, ViewGridIcon} from '@heroicons/react/solid';
+import {SearchIcon} from '@heroicons/react/outline';
 import Image from 'next/image';
 
 export default function Home () {
@@ -22,16 +23,30 @@ export default function Home () {
           <p className="link">Gmail</p>
           <p className="link">Images</p>
           {/* Icon */}
-          <ViewGridIcon className="h-10 w-10 p-2 rounded-full hover:bg-gray-100 cursor-pointer"/>
+          <ViewGridIcon className="h-10 w-10 p-2 rounded-full hover:bg-gray-100 cursor-pointer" />
           {/* Avatar */}
           <Avatar url="https://cdn.icon-icons.com/icons2/1302/PNG/512/messengeruseravatar_85815.png" />
         </div>
       </header>
       {/* Body */}
-      <form>
-        <Image src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
-        height={100}
-        width={300}/>
+      <form className="flex flex-col items-center mt-44 flex-grow">
+        <Image
+          src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+          height={100}
+          width={300}
+        />
+        <div className="
+        flex w-full mt-5 hover:shadow-lg 
+        focus-within:shadow-lg 
+        max-w-md rounded-full border 
+        border-gray-200 px-5 py-3 
+        items-center sm:max-w-xl
+        lg:max-w-2xl
+        ">
+          <SearchIcon className="h-5 mr-3 text-gray-500" />
+          <input type="text" className="flex-grow focus:outline-none" />
+          <MicrophoneIcon className="h-5 text-gray-500" />
+        </div>
       </form>
       {/* Footer */}
       <h1 className="p-10">GOOGLE APP</h1>
