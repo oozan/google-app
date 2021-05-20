@@ -54,7 +54,6 @@ export default function Home () {
           </div>
       </form>
       {/* Footer */}
-      <h1 className="p-10">GOOGLE APP</h1>
     </div>
   );
 }
