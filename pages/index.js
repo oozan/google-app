@@ -47,6 +47,10 @@ export default function Home () {
           <input type="text" className="flex-grow focus:outline-none" />
           <MicrophoneIcon className="h-5 text-gray-500" />
         </div>
+        <div>
+            <button className="btn">Google Search</button>
+            <button className="btn">I'm Feeling Lucky</button>
+          </div>
       </form>
       {/* Footer */}
       <h1 className="p-10">GOOGLE APP</h1>
