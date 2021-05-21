@@ -3,6 +3,7 @@ import Avatar from '../components/Avatar';
 import {MicrophoneIcon, ViewGridIcon} from '@heroicons/react/solid';
 import {SearchIcon} from '@heroicons/react/outline';
 import Image from 'next/image';
+import Footer from '../components/Footer';
 
 export default function Home () {
   return (
@@ -54,6 +55,7 @@ export default function Home () {
           </div>
       </form>
       {/* Footer */}
+      <Footer />
     </div>
   );
 }
