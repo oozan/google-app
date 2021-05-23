@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import { useRouter } from 'next/router';
 import { useRef } from 'react';
+import { XIcon } from '@heroicons/react/solid';
 
 function Header() {
     const router = useRouter();
@@ -19,6 +20,8 @@ function Header() {
                 className="flex-grow w-full focus:outline-none"
                 type="text"
                 />
+                <XIcon className="h-7 text-gray-500 cursor-pointer
+                transition duration-100 transform hover:scale-125"/>
             </form>
         </header>
     )
