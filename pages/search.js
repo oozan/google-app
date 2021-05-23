@@ -4,7 +4,7 @@ function Search() {
     return (
         <div>
          <Head>
-             <title>Search Res</title>
+             <title>Search Result</title>
              <link rel="icon" href="/favicon.ico" />
         </Head>
 
