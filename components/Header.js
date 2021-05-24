@@ -24,7 +24,7 @@ function Header() {
                 transition duration-100 transform hover:scale-125"
                 onClick={() => (searchInputRef.current.value ="")}
                 />
-                <MicrophoneIcon />
+                <MicrophoneIcon className="mr-3 h-6 hidden sm:inline-flex text-blue-500 border-l-2 pl-4 border-gray-300"/>
             </form>
         </header>
     )
