@@ -6,6 +6,14 @@ import { MicrophoneIcon, XIcon, SearchIcon } from '@heroicons/react/solid';
 function Header() {
     const router = useRouter();
     const searchInputRef = useRef();
+    const search = e => {
+        e.preventDefault();
+        const term = searchInputRef.current.value;
+    
+        if(!term) return;
+    
+        router.push(`/search?term=${term}`);
+      }
     return (
         <header>
             <Image src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
@@ -26,7 +34,7 @@ function Header() {
                 />
                 <MicrophoneIcon className="mr-3 h-6 hidden sm:inline-flex text-blue-500 border-l-2 pl-4 border-gray-300"/>
                 <SearchIcon className="h-6 text-blue-500 hidden sm:inline-flex" />
-                <button hidden type='submit'>Search</button>
+                <button hidden type='submit' onclick={search}>Search</button>
             </form>
         </header>
     )
