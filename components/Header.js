@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import { useRouter } from 'next/router';
 import { useRef } from 'react';
-import { XIcon } from '@heroicons/react/solid';
+import { MicrophoneIcon, XIcon } from '@heroicons/react/solid';
 
 function Header() {
     const router = useRouter();
@@ -24,6 +24,7 @@ function Header() {
                 transition duration-100 transform hover:scale-125"
                 onClick={() => (searchInputRef.current.value ="")}
                 />
+                <MicrophoneIcon />
             </form>
         </header>
     )
