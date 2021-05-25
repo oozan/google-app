@@ -2,6 +2,7 @@ import Image from 'next/image';
 import { useRouter } from 'next/router';
 import { useRef } from 'react';
 import { MicrophoneIcon, XIcon, SearchIcon } from '@heroicons/react/solid';
+import Avatar from './Avatar';
 
 function Header() {
     const router = useRouter();
@@ -37,6 +38,7 @@ function Header() {
                 <SearchIcon className="h-6 text-blue-500 hidden sm:inline-flex" />
                 <button hidden type='submit' onClick={search}>Search</button>
             </form>
+            <Avatar url="https://cdn.icon-icons.com/icons2/1302/PNG/512/messengeruseravatar_85815.png" />
             </div>
 
         </header>
