@@ -15,13 +15,14 @@ function Header() {
         router.push(`/search?term=${term}`);
       }
     return (
-        <header>
+        <header className="sticky top-0 bg-white">
+            <div className="flex w-full p-6 items-center">
             <Image src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
             height={40}
             width={120}
             className="cursor-pointer"
             onClick={() => router.push("/")}/>
-            <form className="flex px-6 py-3 ml-10 mr-5 border
+            <form className="flex flex-grow px-6 py-3 ml-10 mr-5 border
             border-gray-200 rounded-full shadow-lg max-w-3xl items-center">
                 <input 
                 ref={searchInputRef}
@@ -36,6 +37,8 @@ function Header() {
                 <SearchIcon className="h-6 text-blue-500 hidden sm:inline-flex" />
                 <button hidden type='submit' onClick={search}>Search</button>
             </form>
+            </div>
+
         </header>
     )
 }
