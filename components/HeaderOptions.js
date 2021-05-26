@@ -3,7 +3,7 @@ import HeaderOption from "./HeaderOption";
 function HeaderOptions () {
   return (
     <div>
-        <div>
+        <div className="flex space-x-6">
             <HeaderOption />
         </div>
 
