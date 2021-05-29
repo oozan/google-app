@@ -38,7 +38,7 @@ export default function Home () {
           {/* Icon */}
           <ViewGridIcon className="h-10 w-10 p-2 rounded-full hover:bg-gray-100 cursor-pointer" />
           {/* Avatar */}
-          <Avatar url="https://cdn.icon-icons.com/icons2/1302/PNG/512/messengeruseravatar_85815.png" />
+          <Avatar url="https://cdn.business2community.com/wp-content/uploads/2017/08/blank-profile-picture-973460_640.png" />
         </div>
       </header>
       {/* Body */}
