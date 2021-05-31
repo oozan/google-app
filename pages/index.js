@@ -24,24 +24,18 @@ export default function Home () {
         <title>Google</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      {/* Header */}
       <header className="flex w-full p-5 justify-between text-sm text-gray-700">
-        {/*Left */}
         <div className="flex space-x-4 items-center">
           <p className="link">About</p>
           <p className="link">Store</p>
         </div>
-        {/* Right */}
         <div className="flex space-x-4 items-center">
           <p className="link">Gmail</p>
           <p className="link">Images</p>
-          {/* Icon */}
           <ViewGridIcon className="h-10 w-10 p-2 rounded-full hover:bg-gray-100 cursor-pointer" />
-          {/* Avatar */}
           <Avatar url="https://cdn.business2community.com/wp-content/uploads/2017/08/blank-profile-picture-973460_640.png" />
         </div>
       </header>
-      {/* Body */}
       <form className="flex flex-col items-center mt-44 flex-grow w-4/5">
         <Image
           src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
