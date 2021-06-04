@@ -11,6 +11,7 @@ function Search({results}) {
         </Head>
 
         <Header />
+        <SearchResults results={results} />
         </div>
     )
 }
