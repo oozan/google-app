@@ -12,7 +12,7 @@
 /build
 
 # single file
-.keys.js
+/keys.js
 
 # debug
 npm-debug.log*
