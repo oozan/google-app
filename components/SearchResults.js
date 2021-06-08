@@ -7,7 +7,9 @@ function SearchResults({results}) {
              {results.items?.map((result) => (
                  <div key={result.link} className="max-w-xl mb-8">
                      <div>
-
+                        <a href={result.link} className="text-sml">
+                            {result.formattedUrl}
+                        </a>
                      </div>
                      <p>{result.snippet}</p>
                  </div>
