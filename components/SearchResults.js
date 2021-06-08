@@ -10,6 +10,11 @@ function SearchResults({results}) {
                         <a href={result.link} className="text-sml">
                             {result.formattedUrl}
                         </a>
+                        <a href={result.link}>
+                            <h2 className="truncate text-xl text-blue-800 font-medium">
+                                {result.title}
+                            </h2>
+                        </a>
                      </div>
                      <p>{result.snippet}</p>
                  </div>
