@@ -2,6 +2,8 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 
 ```bash
+npm install
+and
 npm run dev
 # or
 yarn dev
